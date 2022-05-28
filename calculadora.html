@@ -201,33 +201,33 @@
             const result = document.getElementById('resultado');
             if(imc < 18.5)
             {
-                console.log('Magreza | Obesidade: 0');
+                console.log('Magreza   Obesidade: 0');
                 result.style.color = 'yellow';
-                result.innerHTML = 'Magreza | Obesidade: 0';
+                result.innerHTML = 'Magreza   Obesidade: 0';
             }
             else if(imc >= 18.5 && imc < 25)
             {
-                console.log('Normal | Obesidade: 0');
+                console.log('Normal   Obesidade: 0');
                 result.style.color = 'green';
-                result.innerHTML = 'Normal | Obesidade: 0';
+                result.innerHTML = 'Normal   Obesidade: 0';
             }
             else if(imc >= 25 && imc < 30)
             {
-                console.log('Sobrepeso | Obesidade: I');
+                console.log('Sobrepeso   Obesidade: I');
                 result.style.color = 'yellow';
-                result.innerHTML = 'Sobrepeso | Obesidade: I';
+                result.innerHTML = 'Sobrepeso   Obesidade: I';
             }
             else if(imc >= 30 && imc < 40)
             {
-                console.log('Obesidade | Obesidade: II');
+                console.log('Obesidade   Obesidade: II');
                 result.style.color = 'red';
-                result.innerHTML = 'Obesidade | Obesidade: II';
+                result.innerHTML = 'Obesidade   Obesidade: II';
             }
             else
             {
-                console.log('Obesidade grave | Obesidade: III');
+                console.log('Obesidade grave   Obesidade: III');
                 result.style.color = 'black';
-                result.innerHTML = 'Obesidade grave | Obesidade: III';
+                result.innerHTML = 'Obesidade grave   Obesidade: III';
             }
             go(2,3);
         }
